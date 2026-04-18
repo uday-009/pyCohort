@@ -26,3 +26,8 @@ MyClass = type('MyClass', (object,), {'x': 5})
 
 obj = MyClass()
 print(obj.x) 
+
+g = 10;
+h = '20';
+i = int(h); # Type casting from string to integer
+print(g + i) # Output: 30
